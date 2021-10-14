@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets\img\logo-fav.png">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="assets\lib\perfect-scrollbar\css\perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css"
+        href="assets\lib\material-design-icons\css\material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\datetimepicker\css\bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\select2\css\select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\bootstrap-slider\css\bootstrap-slider.min.css">
+    <link rel="stylesheet" href="assets\css\app.css" type="text/css">
+</head>
+
+<body>
+    <div class="be-wrapper">
+        <nav class="navbar navbar-expand fixed-top be-top-header">
+            <div class="container-fluid">
+                <div class="be-navbar-header"><a class="navbar-brand" href="DanhSachTaiKhoan.html"></a>
+                </div>
+                <div class="page-title"><span>Quản Lý Tài Khoản</span></div>
+                <div class="be-right-navbar">
+                    <ul class="nav navbar-nav float-right be-user-nav">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                data-toggle="dropdown" role="button" aria-expanded="false"><img
+                                    src="assets\img\avatar.png" alt="Avatar"><span class="user-name">Túpac
+                                    Amaru</span></a>
+                            <div class="dropdown-menu" role="menu">
+                                <div class="user-info">
+                                    <div class="user-name">Túpac Amaru</div>
+                                    <div class="user-position online">Available</div>
+                                </div><a class="dropdown-item" href="pages-profile.html"><span
+                                        class="icon mdi mdi-face"></span>Account</a><a class="dropdown-item"
+                                    href="#"><span class="icon mdi mdi-settings"></span>Settings</a><a
+                                    class="dropdown-item" href="pages-login.html"><span
+                                        class="icon mdi mdi-power"></span>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav float-right be-icons-nav">
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                data-toggle="dropdown" role="button" aria-expanded="false"><span
+                                    class="icon mdi mdi-notifications"></span><span class="indicator"></span></a>
+                            <ul class="dropdown-menu be-notifications">
+                                <li>
+                                    <div class="title">Notifications<span class="badge badge-pill">3</span></div>
+                                    <div class="list">
+                                        <div class="be-scroller-notifications">
+                                            <div class="content">
+                                                <ul>
+                                                    <li class="notification notification-unread"><a href="#">
+                                                            <div class="image"><img src="assets\img\avatar2.png"
+                                                                    alt="Avatar"></div>
+                                                            <div class="notification-info">
+                                                                <div class="text"><span class="user-name">Jessica
+                                                                        Caruso</span> accepted your invitation
+                                                                    to join the team.</div><span class="date">2 min
+                                                                    ago</span>
+                                                            </div>
+                                                        </a></li>
+                                                    <li class="notification"><a href="#">
+                                                            <div class="image"><img src="assets\img\avatar3.png"
+                                                                    alt="Avatar"></div>
+                                                            <div class="notification-info">
+                                                                <div class="text"><span class="user-name">Joel
+                                                                        King</span> is now following you</div>
+                                                                <span class="date">2 days ago</span>
+                                                            </div>
+                                                        </a></li>
+                                                    <li class="notification"><a href="#">
+                                                            <div class="image"><img src="assets\img\avatar4.png"
+                                                                    alt="Avatar"></div>
+                                                            <div class="notification-info">
+                                                                <div class="text"><span class="user-name">John
+                                                                        Doe</span> is watching your main
+                                                                    repository</div><span class="date">2 days ago</span>
+                                                            </div>
+                                                        </a></li>
+                                                    <li class="notification"><a href="#">
+                                                            <div class="image"><img src="assets\img\avatar5.png"
+                                                                    alt="Avatar"></div>
+                                                            <div class="notification-info"><span class="text"><span
+                                                                        class="user-name">Emily
+                                                                        Carter</span> is now following you</span><span
+                                                                    class="date">5 days ago</span></div>
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="be-left-sidebar">
+            <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Xem và Sửa Tài Khoản</a>
+                <div class="left-sidebar-spacer">
+                    <div class="left-sidebar-scroll">
+                        <div class="left-sidebar-content">
+                            <ul class="sidebar-elements">
+                                <li class="divider"></li>
+
+                                <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>Quản Lý Tài
+                                            Khoản</span></a>
+                                    <ul class="sub-menu">
+
+                                        <li><a href="DanhSachTaiKhoan.html">Danh Sách Tài Khoản</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="be-content">
+            <div class="page-head">
+                <h2 class="page-head-title">Thông Tin Tài Khoản</h2>
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb page-head-nav">
+
+                        <li class="breadcrumb-item active">Quản Lý Tài Khoản&nbsp;</li>
+                        <li class="breadcrumb-item"><a href="DanhSachTaiKhoan.html">Danh Sách Tài Khoản&nbsp;</a></li>
+                        <li class="breadcrumb-item active">Tạo Tài Khoản</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="main-content container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-border-color card-border-color-primary">
+                            <div class="card-header card-header-divider">Đăng Ký Tài Khoản Mới</div>
+                            <div class="card-body">
+                                <form>                                   
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Tên
+                                            Tài Khoản<span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText4" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                                            for="inputText3">Email <span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText5" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Password<span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText6" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Comfirm Password<span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText6" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Họ
+                                            và Tên<span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText6" type="text">
+                                        </div>
+                                    </div>                                                                    
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right"
+                                            for="inputText3">Điện Thoại <span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText8" type="tel"
+                                                pattern="[0-9]{9-11}">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Địa
+                                            Chỉ <span style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <input class="form-control" id="inputText9" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-12 col-sm-3 col-form-label text-sm-right">Chức Danh<span
+                                                style="color:red;">(*)</span></label>
+                                        <div class="col-12 col-sm-8 col-lg-6">
+                                            <select class="select2">
+                                                <option selected value="CS">Chủ Cửa Hàng</option>
+                                                <option value="AD">Quản trị viên</option>
+                                            </select>
+                                        </div>
+                                    </div>                                                                      
+                                    <div class="form-group row login-submit">
+                                        <div class="col-6"><a class="btn btn-secondary btn-xl" data-dismiss="modal"
+                                                type="submit">Hủy</a>
+                                        </div>
+                                        <div class="col-6"><a class="btn btn-primary btn-xl" href="index.html"
+                                                data-dismiss="modal">Tạo Tài Khoản</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets\lib\jquery\jquery.min.js" type="text/javascript"></script>
+    <script src="assets\lib\perfect-scrollbar\js\perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="assets\js\app.js" type="text/javascript"></script>
+    <script src="assets\lib\jquery-ui\jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets\lib\jquery.nestable\jquery.nestable.js" type="text/javascript"></script>
+    <script src="assets\lib\moment.js\min\moment.min.js" type="text/javascript"></script>
+    <script src="assets\lib\datetimepicker\js\bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <script src="assets\lib\select2\js\select2.min.js" type="text/javascript"></script>
+    <script src="assets\lib\select2\js\select2.full.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bootstrap-slider\bootstrap-slider.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bs-custom-file-input\bs-custom-file-input.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //-initialize the javascript
+            App.init();
+            App.formElements();
+        });
+    </script>
+</body>
+
+</html>

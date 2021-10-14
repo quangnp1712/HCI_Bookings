@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets\img\logo-fav.png">
+    <title>Beagle</title>
+    <link rel="stylesheet" type="text/css" href="assets\lib\perfect-scrollbar\css\perfect-scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\material-design-icons\css\material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\datetimepicker\css\bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\select2\css\select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\lib\bootstrap-slider\css\bootstrap-slider.min.css">
+    <link rel="stylesheet" href="assets\css\app.css" type="text/css">
+  </head>
+  <body>
+    <div class="be-wrapper">
+      <nav class="navbar navbar-expand fixed-top be-top-header">
+        <div class="container-fluid">
+          <div class="be-navbar-header"><a class="navbar-brand" href="DanhSachTaiKhoan.html"></a>
+          </div>
+          <div class="page-title"><span>Quản Lý Tài Khoản</span></div>
+          <div class="be-right-navbar">
+            <ul class="nav navbar-nav float-right be-user-nav">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><img src="assets\img\avata2.jpg" alt="Avatar"><span class="user-name">Quang Admin</span></a>
+                <div class="dropdown-menu" role="menu">     
+                  <div class="user-info">
+                    <div class="user-name">Phương Quang</div>
+                    <div class="user-position online">Hoạt Động</div>
+                  </div><a class="dropdown-item" href="XemQuanTriVien.html"><span class="icon mdi mdi-face"></span>Tài khoản</a>
+					
+					<a class="dropdown-item" href="#"><span class="icon mdi mdi-power"></span>Đăng xuất</a>
+                </div>
+              </li>
+            </ul>
+			  
+            <ul class="nav navbar-nav float-right be-icons-nav">
+              
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon mdi mdi-notifications"></span><span class="indicator"></span></a>
+                <ul class="dropdown-menu be-notifications">
+                  <li>
+                    <div class="title">Thông báo<span class="badge badge-pill">3</span></div>
+                    <div class="list">
+                      <div class="be-scroller-notifications">
+                        <div class="content">
+                          <ul>
+                            <li class="notification notification-unread"><a href="#">
+                                <div class="image"><img src="assets\img\avata4.jpg" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">Hoàng Quốc Bảo</span> đã tạo mới chủ shop 4RAU Barber.</div><span class="date">1 phút trước</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="assets\img\avata5.jpg" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">Âu Dương Phong</span> đã cập nhập trạng thái Đông Phương Bất Bại</div><span class="date">2 ngày trước</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="assets\img\avata6.jpg" alt="Avatar"></div>
+                                <div class="notification-info">
+                                  <div class="text"><span class="user-name">Doãn Chí Bình</span> đã cập nhập trạng thái Gia Cát Lượng</div><span class="date">3 ngày trước</span>
+                                </div></a></li>
+                            <li class="notification"><a href="#">
+                                <div class="image"><img src="assets\img\avata7.jpg" alt="Avatar"></div>
+                                <div class="notification-info"><span class="text"><span class="user-name">Bùi Nguyên Thiệu</span> đã tạo mới chủ shop TonyBarber</span><span class="date">4 ngày trước</span></div></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer"> <a href="#">Xem tất cả thông báo</a></div>
+                  </li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="be-left-sidebar">
+        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="#">Xem và Sửa Tài Khoản</a>
+          <div class="left-sidebar-spacer">
+            <div class="left-sidebar-scroll">
+              <div class="left-sidebar-content">
+                <ul class="sidebar-elements">
+                  <li class="divider"></li>
+                  
+                  <li class="parent"><a href="#"><i class="icon mdi mdi-face"></i><span>Quản Lý Tài Khoản</span></a>
+                    <ul class="sub-menu">
+						
+                      <li><a href="DanhSachTaiKhoan.html">Danh Sách Tài Khoản</a>
+                      </li>
+                                           
+                    </ul>
+                  </li>
+					
+                 
+                    </ul>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="be-content">
+        <div class="page-head">
+          <h2 class="page-head-title">Thông Tin Tài Khoản</h2>
+          <nav aria-label="breadcrumb" role="navigation">
+            <ol class="breadcrumb page-head-nav">
+              
+              <li class="breadcrumb-item active">Quản Lý Tài Khoản&nbsp;</li>
+				<li class="breadcrumb-item"><a href="DanhSachTaiKhoan.html">Danh Sách Tài Khoản&nbsp;</a></li>
+              <li class="breadcrumb-item active">Thông Tin Tài Khoản</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="main-content container-fluid">
+          
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card card-border-color card-border-color-primary">
+                <div class="card-header card-header-divider">Thông Tin Tài Khoản</div>
+                <div class="card-body">
+                  <form action="DanhSachTaiKhoan.html">
+					  <div class="user-display">
+                  <div class="user-display-bg">
+					  <img src="assets\img\liembarbershop.jpg" alt="Profile Background">
+					  
+						                    
+					  
+						  </div>
+						  
+                  <div class="user-display-bottom">
+					  <div class="update-wallpaper" > 
+						
+									<label for="file-1">
+									<img src="assets\img\icon-camera.png" alt="Avatar"><span>Chỉnh sửa ảnh bìa</span>
+									</label>
+						</div>
+                    <div class="user-display-avatar"><img src="assets\img\avatachushop.jpg" alt="Avatar"></div>
+                    <input class="inputfile" id="file-1" type="file" name="file-1" data-multiple-caption="{count} files selected" multiple="">
+                    <div class="icon-camera" > 
+						
+									<label for="file-1">
+									<img src="assets\img\icon-camera.png" alt="Avatar">
+									</label>
+					</div>
+                  </div>
+				
+					
+                </div>
+					
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputReadonly3">Mã Số</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputReadonly3" type="text" readonly="readonly" value="CS000041">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Tên Tài Khoản</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputText4" type="text" value="triliembarber">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Email </label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputText5" type="text" value="triliembarber041@bookings.com">
+                      </div>
+                    </div>
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Họ và Tên</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputText6" type="text" value="Nguyễn Hữu Trí">
+                      </div>
+                    </div>
+					  
+					  
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Điện Thoại</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputText8" type="tel" pattern="[0-9]{9-11}" value="0969696969">
+                      </div>
+                    </div>
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputText3">Địa Chỉ</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputText9" type="text" value="108 Đ. số 9, Tân Phú, Quận 7, Thành phố Hồ Chí Minh">
+                      </div>
+                    </div>
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputReadonly3">Chức Danh</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputReadonly5" type="text" readonly="readonly" value="Chủ Shop">
+                      </div>
+                    </div>
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right" for="inputReadonly3">Cửa Hàng</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <input class="form-control" id="inputReadonly4" type="text" readonly="readonly" value="Liêm Barber">
+                      </div>
+                    </div>
+					  <div class="form-group row">
+                      <label class="col-12 col-sm-3 col-form-label text-sm-right">Trạng Thái</label>
+                      <div class="col-12 col-sm-8 col-lg-6">
+                        <select class="select2">
+                                                    
+                            <option selected value="HD">Hoạt Động</option>
+							<option value="NHD">Ngừng Hoạt Động</option>
+                            
+                          
+                        </select>
+                      </div>
+                    </div>
+					  
+                    <div class="form-group row login-submit">
+                      <div class="col-6"><a class="btn btn-secondary btn-xl" data-dismiss="modal" type="submit" href="DanhSachTaiKhoan.html">Quay lại</a></div>
+                      <div class="col-6"  ><a class="btn btn-primary btn-xl" href="DanhSachTaiKhoan.html" data-dismiss="modal">Lưu</a></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+      <nav class="be-right-sidebar">
+        <div class="sb-content">
+          <div class="tab-navigation">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li class="nav-item" role="presentation"><a class="nav-link active" href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Chat</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Todo</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
+          </div>
+          <div class="tab-panel">
+            <div class="tab-content">
+              <div class="tab-pane tab-chat active" id="tab1" role="tabpanel">
+                <div class="chat-contacts">
+                  <div class="chat-sections">
+                    <div class="be-scroller-chat">
+                      <div class="content">
+                        <h2>Recent</h2>
+                        <div class="contact-list contact-list-recent">
+                          <div class="user"><a href="#"><img src="assets\img\avatar1.png" alt="Avatar">
+                              <div class="user-data"><span class="status away"></span><span class="name">Claire Sassu</span><span class="message">Can you share the...</span></div></a></div>
+                          <div class="user"><a href="#"><img src="assets\img\avatar2.png" alt="Avatar">
+                              <div class="user-data"><span class="status"></span><span class="name">Maggie jackson</span><span class="message">I confirmed the info.</span></div></a></div>
+                          <div class="user"><a href="#"><img src="assets\img\avatar3.png" alt="Avatar">
+                              <div class="user-data"><span class="status offline"></span><span class="name">Joel King		</span><span class="message">Ready for the meeti...</span></div></a></div>
+                        </div>
+                        <h2>Contacts</h2>
+                        <div class="contact-list">
+                          <div class="user"><a href="#"><img src="assets\img\avatar4.png" alt="Avatar">
+                              <div class="user-data2"><span class="status"></span><span class="name">Mike Bolthort</span></div></a></div>
+                          <div class="user"><a href="#"><img src="assets\img\avatar5.png" alt="Avatar">
+                              <div class="user-data2"><span class="status"></span><span class="name">Maggie jackson</span></div></a></div>
+                          <div class="user"><a href="#"><img src="assets\img\avatar6.png" alt="Avatar">
+                              <div class="user-data2"><span class="status offline"></span><span class="name">Jhon Voltemar</span></div></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom-input">
+                    <input type="text" placeholder="Search..." name="q"><span class="mdi mdi-search"></span>
+                  </div>
+                </div>
+                <div class="chat-window">
+                  <div class="title">
+                    <div class="user"><img src="assets\img\avatar2.png" alt="Avatar">
+                      <h2>Maggie jackson</h2><span>Active 1h ago</span>
+                    </div><span class="icon return mdi mdi-chevron-left"></span>
+                  </div>
+                  <div class="chat-messages">
+                    <div class="be-scroller-messages">
+                      <div class="content">
+                        <ul>
+                          <li class="friend">
+                            <div class="msg">Hello</div>
+                          </li>
+                          <li class="self">
+                            <div class="msg">Hi, how are you?</div>
+                          </li>
+                          <li class="friend">
+                            <div class="msg">Good, I'll need support with my pc</div>
+                          </li>
+                          <li class="self">
+                            <div class="msg">Sure, just tell me what is going on with your computer?</div>
+                          </li>
+                          <li class="friend">
+                            <div class="msg">I don't know it just turns off suddenly</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="chat-input">
+                    <div class="input-wrapper"><span class="photo mdi mdi-camera"></span>
+                      <input type="text" placeholder="Message..." name="q" autocomplete="off"><span class="send-msg mdi mdi-mail-send"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane tab-todo" id="tab2" role="tabpanel">
+                <div class="todo-container">
+                  <div class="todo-wrapper">
+                    <div class="be-scroller-todo">
+                      <div class="todo-content"><span class="category-title">Today</span>
+                        <ul class="todo-list">
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" checked="" id="tck1">
+                              <label class="custom-control-label" for="tck1">Initialize the project</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck2">
+                              <label class="custom-control-label" for="tck2">Create the main structure							</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck3">
+                              <label class="custom-control-label" for="tck3">Updates changes to GitHub							</label>
+                            </div>
+                          </li>
+                        </ul><span class="category-title">Tomorrow</span>
+                        <ul class="todo-list">
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck4">
+                              <label class="custom-control-label" for="tck4">Initialize the project							</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck5">
+                              <label class="custom-control-label" for="tck5">Create the main structure							</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck6">
+                              <label class="custom-control-label" for="tck6">Updates changes to GitHub							</label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="custom-checkbox custom-control custom-control-sm"><span class="delete mdi mdi-delete"></span>
+                              <input class="custom-control-input" type="checkbox" id="tck7">
+                              <label class="custom-control-label" for="tck7" title="This task is too long to be displayed in a normal space!">This task is too long to be displayed in a normal space!							</label>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom-input">
+                    <input type="text" placeholder="Create new task..." name="q"><span class="mdi mdi-plus"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane tab-settings" id="tab3" role="tabpanel">
+                <div class="settings-wrapper">
+                  <div class="be-scroller-settings"><span class="category-title">General</span>
+                    <ul class="settings-list">
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" checked="" name="st1" id="st1"><span>
+                            <label for="st1"></label></span>
+                        </div><span class="name">Available</span>
+                      </li>
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" checked="" name="st2" id="st2"><span>
+                            <label for="st2"></label></span>
+                        </div><span class="name">Enable notifications</span>
+                      </li>
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" checked="" name="st3" id="st3"><span>
+                            <label for="st3"></label></span>
+                        </div><span class="name">Login with Facebook</span>
+                      </li>
+                    </ul><span class="category-title">Notifications</span>
+                    <ul class="settings-list">
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" name="st4" id="st4"><span>
+                            <label for="st4"></label></span>
+                        </div><span class="name">Email notifications</span>
+                      </li>
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" checked="" name="st5" id="st5"><span>
+                            <label for="st5"></label></span>
+                        </div><span class="name">Project updates</span>
+                      </li>
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" checked="" name="st6" id="st6"><span>
+                            <label for="st6"></label></span>
+                        </div><span class="name">New comments</span>
+                      </li>
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" name="st7" id="st7"><span>
+                            <label for="st7"></label></span>
+                        </div><span class="name">Chat messages</span>
+                      </li>
+                    </ul><span class="category-title">Workflow</span>
+                    <ul class="settings-list">
+                      <li>
+                        <div class="switch-button switch-button-sm">
+                          <input type="checkbox" name="st8" id="st8"><span>
+                            <label for="st8"></label></span>
+                        </div><span class="name">Deploy on commit</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script src="assets\lib\jquery\jquery.min.js" type="text/javascript"></script>
+    <script src="assets\lib\perfect-scrollbar\js\perfect-scrollbar.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="assets\js\app.js" type="text/javascript"></script>
+    <script src="assets\lib\jquery-ui\jquery-ui.min.js" type="text/javascript"></script>
+    <script src="assets\lib\jquery.nestable\jquery.nestable.js" type="text/javascript"></script>
+    <script src="assets\lib\moment.js\min\moment.min.js" type="text/javascript"></script>
+    <script src="assets\lib\datetimepicker\js\bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <script src="assets\lib\select2\js\select2.min.js" type="text/javascript"></script>
+    <script src="assets\lib\select2\js\select2.full.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bootstrap-slider\bootstrap-slider.min.js" type="text/javascript"></script>
+    <script src="assets\lib\bs-custom-file-input\bs-custom-file-input.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	//-initialize the javascript
+      	App.init();
+      	App.formElements();
+      });
+    </script>
+  </body>
+</html>
